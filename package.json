@@ -1,0 +1,33 @@
+{
+  "name": "@tmcb/conventional-commit",
+  "description": "Git commit binary powered by commitizen with conventional commit standard",
+  "version": "0.0.0",
+  "license": "MIT",
+  "bin": {
+    "conventional-commit": "index.js"
+  },
+  "main": "index.js",
+  "author": "TED Vortex <ted.vortex@gmail.com> (vortex.name)",
+  "engines": {
+    "node": ">=14",
+    "npm": ">=6"
+  },
+  "bugs": "https://github.com/TMCB-SPACE/conventional-commit/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TMCB-SPACE/conventional-commit.git"
+  },
+  "dependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "scripts": {
+    "push": "npx cz"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@tmcb/check-engines": "1.0.0"
+  }
+}
