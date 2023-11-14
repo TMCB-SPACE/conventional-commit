@@ -1,7 +1,7 @@
 {
   "name": "@tmcb/conventional-commit",
   "description": "Git commit binary powered by commitizen with conventional commit standard",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "license": "MIT",
   "bin": {
     "conventional-commit": "index.js"
